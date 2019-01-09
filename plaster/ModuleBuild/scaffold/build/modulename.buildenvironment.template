@@ -26,7 +26,6 @@ if ((Get-Variable 'BuildEnv' -ErrorAction:SilentlyContinue) -eq $null) {
 
         # Options - These affect how your build will be run.
         OptionAnalyzeCode = $<%=$PLASTER_PARAM_OptionAnalyzeCode%>
-        OptionAnalyzeCodeSettings = 'PSGallery'        
         OptionCodeHealthReport = $<%=$PLASTER_PARAM_OptionCodeHealthReport%>
         OptionCombineFiles = $TRUE
         OptionTranscriptEnabled = $false
